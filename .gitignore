@@ -1,0 +1,11 @@
+
+apis/
+
+__pycache__/
+*.pyc
+
+
+.env
+
+*.log
+
