@@ -1,6 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 
+
 router = APIRouter(prefix="/user",
                    tags= ["user"],
                    responses={404:{"MESSAGE": "NO ENCONTRADO"}})
@@ -91,3 +92,5 @@ def found_usuario(id:int):
 
 
 
+
+#hola
