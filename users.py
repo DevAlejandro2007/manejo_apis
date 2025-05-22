@@ -31,7 +31,7 @@ users_list = [User(id = 1 ,name = "Alejo",surname = "Rojas",url = "www.youtube.c
             User(id = 3,name ="x",surname = "z", url= "www.instagram.com",age= 15)]
 
 #Direccion de la lista de usuarios
-@router.get("/users")
+@router.get("/")
 async def users():
     return users_list
 
